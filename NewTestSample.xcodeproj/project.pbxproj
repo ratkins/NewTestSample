@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEB1EFE61B3313ED00A4AD38 /* MultiselectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB1EFE51B3313ED00A4AD38 /* MultiselectTableViewController.m */; };
 		AEE29AFC1B32C994003FF9F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE29AFB1B32C994003FF9F9 /* main.m */; };
 		AEE29AFF1B32C994003FF9F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE29AFE1B32C994003FF9F9 /* AppDelegate.m */; };
 		AEE29B021B32C994003FF9F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE29B011B32C994003FF9F9 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AEB1EFE41B3313ED00A4AD38 /* MultiselectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiselectTableViewController.h; sourceTree = "<group>"; };
+		AEB1EFE51B3313ED00A4AD38 /* MultiselectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiselectTableViewController.m; sourceTree = "<group>"; };
 		AEE29AF71B32C994003FF9F9 /* NewTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE29AFB1B32C994003FF9F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEE29AFD1B32C994003FF9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				AEE29B151B32DE11003FF9F9 /* EarthquakesTableViewController.m */,
 				AEE29B171B32E343003FF9F9 /* EarthquakeDetailViewController.h */,
 				AEE29B181B32E343003FF9F9 /* EarthquakeDetailViewController.m */,
+				AEB1EFE41B3313ED00A4AD38 /* MultiselectTableViewController.h */,
+				AEB1EFE51B3313ED00A4AD38 /* MultiselectTableViewController.m */,
 			);
 			path = NewTestSample;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB1EFE61B3313ED00A4AD38 /* MultiselectTableViewController.m in Sources */,
 				AEE29B191B32E343003FF9F9 /* EarthquakeDetailViewController.m in Sources */,
 				AEE29B161B32DE11003FF9F9 /* EarthquakesTableViewController.m in Sources */,
 				AEE29B021B32C994003FF9F9 /* ViewController.m in Sources */,
@@ -415,6 +421,7 @@
 				AEE29B101B32C994003FF9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEE29B251B32F35F003FF9F9 /* Build configuration list for PBXNativeTarget "NewTestSample UI Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				AEE29B271B32F35F003FF9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
