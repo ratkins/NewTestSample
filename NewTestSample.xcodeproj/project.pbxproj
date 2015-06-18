@@ -13,7 +13,20 @@
 		AEE29B051B32C994003FF9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE29B031B32C994003FF9F9 /* Main.storyboard */; };
 		AEE29B071B32C994003FF9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE29B061B32C994003FF9F9 /* Assets.xcassets */; };
 		AEE29B0A1B32C994003FF9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE29B081B32C994003FF9F9 /* LaunchScreen.storyboard */; };
+		AEE29B161B32DE11003FF9F9 /* EarthquakesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE29B151B32DE11003FF9F9 /* EarthquakesTableViewController.m */; };
+		AEE29B191B32E343003FF9F9 /* EarthquakeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE29B181B32E343003FF9F9 /* EarthquakeDetailViewController.m */; };
+		AEE29B211B32F35F003FF9F9 /* NewTestSample_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE29B201B32F35F003FF9F9 /* NewTestSample_UI_Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEE29B231B32F35F003FF9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE29AEF1B32C994003FF9F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE29AF61B32C994003FF9F9;
+			remoteInfo = NewTestSample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AEE29AF71B32C994003FF9F9 /* NewTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +39,24 @@
 		AEE29B061B32C994003FF9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE29B091B32C994003FF9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE29B0B1B32C994003FF9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE29B141B32DE11003FF9F9 /* EarthquakesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesTableViewController.h; sourceTree = "<group>"; };
+		AEE29B151B32DE11003FF9F9 /* EarthquakesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesTableViewController.m; sourceTree = "<group>"; };
+		AEE29B171B32E343003FF9F9 /* EarthquakeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakeDetailViewController.h; sourceTree = "<group>"; };
+		AEE29B181B32E343003FF9F9 /* EarthquakeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakeDetailViewController.m; sourceTree = "<group>"; };
+		AEE29B1E1B32F35F003FF9F9 /* NewTestSample UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewTestSample UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE29B201B32F35F003FF9F9 /* NewTestSample_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestSample_UI_Tests.swift; sourceTree = "<group>"; };
+		AEE29B221B32F35F003FF9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AEE29AF41B32C994003FF9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE29B1B1B32F35F003FF9F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE29AF91B32C994003FF9F9 /* NewTestSample */,
+				AEE29B1F1B32F35F003FF9F9 /* NewTestSample UI Tests */,
 				AEE29AF81B32C994003FF9F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE29AF71B32C994003FF9F9 /* NewTestSample.app */,
+				AEE29B1E1B32F35F003FF9F9 /* NewTestSample UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +96,10 @@
 				AEE29B081B32C994003FF9F9 /* LaunchScreen.storyboard */,
 				AEE29B0B1B32C994003FF9F9 /* Info.plist */,
 				AEE29AFA1B32C994003FF9F9 /* Supporting Files */,
+				AEE29B141B32DE11003FF9F9 /* EarthquakesTableViewController.h */,
+				AEE29B151B32DE11003FF9F9 /* EarthquakesTableViewController.m */,
+				AEE29B171B32E343003FF9F9 /* EarthquakeDetailViewController.h */,
+				AEE29B181B32E343003FF9F9 /* EarthquakeDetailViewController.m */,
 			);
 			path = NewTestSample;
 			sourceTree = "<group>";
@@ -77,6 +110,15 @@
 				AEE29AFB1B32C994003FF9F9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE29B1F1B32F35F003FF9F9 /* NewTestSample UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE29B201B32F35F003FF9F9 /* NewTestSample_UI_Tests.swift */,
+				AEE29B221B32F35F003FF9F9 /* Info.plist */,
+			);
+			path = "NewTestSample UI Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +141,24 @@
 			productReference = AEE29AF71B32C994003FF9F9 /* NewTestSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AEE29B1D1B32F35F003FF9F9 /* NewTestSample UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE29B251B32F35F003FF9F9 /* Build configuration list for PBXNativeTarget "NewTestSample UI Tests" */;
+			buildPhases = (
+				AEE29B1A1B32F35F003FF9F9 /* Sources */,
+				AEE29B1B1B32F35F003FF9F9 /* Frameworks */,
+				AEE29B1C1B32F35F003FF9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE29B241B32F35F003FF9F9 /* PBXTargetDependency */,
+			);
+			name = "NewTestSample UI Tests";
+			productName = "NewTestSample UI Tests";
+			productReference = AEE29B1E1B32F35F003FF9F9 /* NewTestSample UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +170,10 @@
 				TargetAttributes = {
 					AEE29AF61B32C994003FF9F9 = {
 						CreatedOnToolsVersion = 7.0;
+					};
+					AEE29B1D1B32F35F003FF9F9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AEE29AF61B32C994003FF9F9;
 					};
 				};
 			};
@@ -127,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				AEE29AF61B32C994003FF9F9 /* NewTestSample */,
+				AEE29B1D1B32F35F003FF9F9 /* NewTestSample UI Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +207,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEE29B1C1B32F35F003FF9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -149,13 +221,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE29B191B32E343003FF9F9 /* EarthquakeDetailViewController.m in Sources */,
+				AEE29B161B32DE11003FF9F9 /* EarthquakesTableViewController.m in Sources */,
 				AEE29B021B32C994003FF9F9 /* ViewController.m in Sources */,
 				AEE29AFF1B32C994003FF9F9 /* AppDelegate.m in Sources */,
 				AEE29AFC1B32C994003FF9F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEE29B1A1B32F35F003FF9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE29B211B32F35F003FF9F9 /* NewTestSample_UI_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEE29B241B32F35F003FF9F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEE29AF61B32C994003FF9F9 /* NewTestSample */;
+			targetProxy = AEE29B231B32F35F003FF9F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AEE29B031B32C994003FF9F9 /* Main.storyboard */ = {
@@ -281,6 +371,31 @@
 			};
 			name = Release;
 		};
+		AEE29B261B32F35F003FF9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NewTestSample UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.NewTestSample-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = NewTestSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AEE29B271B32F35F003FF9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NewTestSample UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.NewTestSample-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewTestSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -298,6 +413,14 @@
 			buildConfigurations = (
 				AEE29B0F1B32C994003FF9F9 /* Debug */,
 				AEE29B101B32C994003FF9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEE29B251B32F35F003FF9F9 /* Build configuration list for PBXNativeTarget "NewTestSample UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE29B261B32F35F003FF9F9 /* Debug */,
+				AEE29B271B32F35F003FF9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
