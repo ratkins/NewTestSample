@@ -6,8 +6,9 @@
 //  Copyright © 2015 Pivotal. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import XCTest
+import OHHTTPStubs
 
 class NewTestSample_UI_Tests: XCTestCase {
         
@@ -15,6 +16,7 @@ class NewTestSample_UI_Tests: XCTestCase {
         super.setUp()
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
